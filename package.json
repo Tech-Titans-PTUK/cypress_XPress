@@ -1,0 +1,14 @@
+{
+  "name": "cypress_XPress",
+  "version": "1.0.0",
+  "description": "Creating and automating test cases for XPress Excavation Inc.",
+  "scripts": {
+    "start": "cypress open"
+  },
+  "author": "mohammad-abohasan",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^13.6.0",
+    "typescript": "^5.3.2"
+  }
+}
