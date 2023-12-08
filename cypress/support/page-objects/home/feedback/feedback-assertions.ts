@@ -4,7 +4,7 @@ class FeedbackAssertions {
   };
 
   verifyWhatOurClientsSaySectionIsVisible() {
-    this.elements.whatOurClientsSaySection().should("be.visible").as("What our clients say section");
+    this.elements.whatOurClientsSaySection().scrollIntoView().should("be.visible").as("What our clients say section");
   }
 }
 
